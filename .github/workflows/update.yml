@@ -29,6 +29,6 @@ jobs:
         run: |
           git config --global user.name 'A. Robot'
           git config --global user.email 'me+swmthemesautomated@thelmgn.com'
-          git commit -am "Update repository"
           git add -A
+          git commit -am "Update repository"
           git push
