@@ -11,6 +11,9 @@ Currently, submitting a theme is a manual process. In future we plan to automate
 
 **We ask that you only upload themes that you have created.**
 
+
+https://user-images.githubusercontent.com/12257112/168627704-3d974945-0bb2-4fc4-a2cf-083beb8dc0ec.mp4
+
 1. Sign up for a GitHub account
 2. Rename your SWM theme to the following format: `USERNAME_THEMENAME.swmtheme`
     - Theme names must be alphanumeric (A-Za-Z0-9), that means, no spaces, no special characters.
