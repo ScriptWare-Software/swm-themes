@@ -1,0 +1,220 @@
+{
+    "name": "Flux Capacitor",
+    "author": "theLMGN",
+    "isLight": false,
+    "vars": {
+        "accent": "#a24cc1",
+        "background": "#191a1c",
+        "background-2": "#191a1c",
+        "background-3": "#202324",
+        "text": "#e8e6e3",
+        "text-on-accent": "#e8e6e3"
+    },
+    "monacoTheme": {
+        "base": "vs-dark",
+        "inherit": true,
+        "rules": [
+            {
+                "foreground": "#5c6370",
+                "fontStyle": " italic",
+                "token": "comment"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "keyword.operator.class"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "constant.other"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "source.php.embedded.line"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "variable"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "support.other.variable"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "string.other.link"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "string.regexp"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "entity.name.tag"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "entity.other.attribute-name"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "meta.tag"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "declaration.tag"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "constant.numeric"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "constant.language"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "support.constant"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "constant.character"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "variable.parameter"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "punctuation.section.embedded"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "keyword.other.unit"
+            },
+            {
+                "foreground": "#eee280",
+                "token": "entity.name.class"
+            },
+            {
+                "foreground": "#eee280",
+                "token": "entity.name.type.class"
+            },
+            {
+                "foreground": "#eee280",
+                "token": "support.type"
+            },
+            {
+                "foreground": "#eee280",
+                "token": "support.class"
+            },
+            {
+                "foreground": "#adee7a",
+                "token": "string"
+            },
+            {
+                "foreground": "#adee7a",
+                "token": "entity.other.inherited-class"
+            },
+            {
+                "foreground": "#adee7a",
+                "token": "markup.heading"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "constant.other.color"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "entity.name.function"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "meta.function-call"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "support.function"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "keyword.other.special-method"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "meta.block-level"
+            },
+            {
+                "foreground": "#ec7bee",
+                "token": "keyword"
+            },
+            {
+                "foreground": "#ec7bee",
+                "token": "storage"
+            },
+            {
+                "foreground": "#ec7bee",
+                "token": "storage.type"
+            },
+            {
+                "foreground": "#ec7bee",
+                "token": "entity.name.tag.css"
+            },
+            {
+                "foreground": "#ec7bee",
+                "token": "keyword.operator"
+            },
+            {
+                "foreground": "#eeb164",
+                "background": "ee7c80ff",
+                "token": "invalid"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "background": "6b4f4fff",
+                "token": "meta.separator"
+            },
+            {
+                "foreground": "#243043",
+                "background": "ee864dff",
+                "token": "invalid.deprecated"
+            },
+            {
+                "foreground": "#4fe1ee",
+                "token": "constant.character"
+            },
+            {
+                "foreground": "#4fe1ee",
+                "token": "constant.other"
+            },
+            {
+                "foreground": "eeb164",
+                "token": "number"
+            }
+        ],
+        "colors": {
+            "editor.foreground": "#BFCAE0",
+            "editor.background": "#202225",
+            "editor.selectionBackground": "#3D4350",
+            "editorCursor.foreground": "#528BFF",
+            "editorWhitespace.foreground": "#747369"
+        }
+    },
+    "customCSS": "@import url(\"https://fonts.googleapis.com/icon?family=Material+Icons+Outlined\");\n.material-icons {\n    font-family: \"Material Icons Outlined\", \"Material Icons\" !important;\n    font-weight: light;\n}\n\n.iconButton {\n    transition: 0.2s line-height, 0.2s font-size;\n    text-shadow: none !important;\n}\n\n.iconButton.active, .iconButton:hover {\n    width: 44px;\n    height: 44px;\n    font-size: 36px !important;\n    line-height:1.2;\n    text-align: center;\n    \n}\n.iconButton:not(.active) {\n    --accent: var(--text);\n}\n\n\n.iconButton::after {\n    background: var(--accent);\n    content: \"l\";\n    color: transparent;\n    position: absolute;;\n    left: 12px;\n    width: 44px;\n    height: 44px;\n    z-index: -1;\n    opacity: 0;\n    transform: scale(1.3);\n    border-radius: 100%;\n    transition: 0.2s opacity;\n}\n.iconButton.active::after, .iconButton:hover::after {\n    opacity: 0.15;\n} body {font-family:BlinkMacSystemFont}",
+    "JFEdefaultColors": {
+        "comment": "#5c6370",
+        "depreciated": "#243043",
+        "invalid": "#eeeeee",
+        "keyword": "#ec7bee",
+        "variable": "#fa6e7c",
+        "constant": "#eeb164",
+        "class": "#eee280",
+        "string": "#adee7a",
+        "function": "#61cbee",
+        "character": "#4fe1ee"
+    },
+    "JFEbackgroundImage": {
+        "enabled": false,
+        "url": "https://source.unsplash.com/random/1920x1080",
+        "size": "cover"
+    }
+}
