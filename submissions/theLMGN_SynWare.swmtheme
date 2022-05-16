@@ -2,6 +2,8 @@
     "name": "Syn-Ware",
     "author": "theLMGN",
     "isLight": false,
+    "desc": "Synapse X theme",
+    "tags": ["custom","overhaul"],
     "vars": {
         "font": "sans-serif",
         "accent": "#164883",

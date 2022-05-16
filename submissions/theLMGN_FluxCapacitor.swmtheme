@@ -1,6 +1,8 @@
 {
     "name": "Flux Capacitor",
     "author": "theLMGN",
+    "desc": "Fluxus-ish theme",
+    "tags": ["custom"],
     "isLight": false,
     "vars": {
         "accent": "#a24cc1",
