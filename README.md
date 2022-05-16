@@ -19,8 +19,8 @@ Currently, submitting a theme is a manual process. In future we plan to automate
 5. When your forked repository is created, go to the `submissions` folder and select the `+` icon near the top right.
 6. Select `Upload files`
 7. Upload your swmthemes and then select `Commit changes`
-8. Go here: https://github.com/jellyfish-lsef/swm-themes/compare and select `Compare against forks`
-9. Where it says `head repository` on the right, select the drop down and select the one with your name
-10. Select `Create pull request` and submit your pull request!
+8. Select `Pull requests` at the top (next to `Code`, `Actions` or `Issues`, **NOT** at the top bar next to the search bar)
+9. Click the big `New pull request` button
+10. Then create your pull request.
 11. If all goes well, your pull request will be merged and your theme will be published!
      - If we need to contact you with any problems, we will comment on the pull request. In most cases this will send you an email, but please check your pull request every once in a while. If this is not possible, put your your Discord name and tag (Name#0000) in the pull request description.
