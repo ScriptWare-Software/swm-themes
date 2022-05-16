@@ -1,0 +1,227 @@
+{
+    "name": "Syn-Ware",
+    "author": "theLMGN",
+    "isLight": false,
+    "vars": {
+        "font": "sans-serif",
+        "accent": "#164883",
+        "background": "#2d2d2d",
+        "background-2": "#2d2e2d",
+        "background-3": "#424242",
+        "text": "#fff",
+        "text-on-accent": "#fff",
+        "background-input": "#424242",
+        "background-sidebar": "#2D2D2D",
+        "background-titlebar": "#353535",
+        "background-bottombar": "#353535",
+        "background-buttons": "#3D3D3D",
+        "background-button-hover": "#273543",
+        "background-button-active": "#223D59",
+        "border-button": "#7B7B7B",
+        "border-button-active": "#164883",
+        "background-tab": "#757575",
+        "background-tab-active": "#5E5E5E",
+        "background-tab-close": "#252525",
+        "background-tab-open": "#696969",
+        "border-tab-open": "#8B8B8B",
+        "border-tab-open-hover": "#CECECE",
+        "background-script-hover": "#304A57",
+        "border-script-hover": "#1F95D2",
+        "text-button": "#fff",
+        "text-tab-close": "#fff",
+        "text-tab-open": "#fff",
+        "background-editor": "#2D2D2D",
+        "background-editor-margin": "#272727"
+    },
+    "monacoTheme": {
+        "base": "vs-dark",
+        "inherit": true,
+        "rules": [
+            {
+                "foreground": "#818181",
+                "fontStyle": " italic",
+                "token": "comment"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "keyword.operator.class"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "constant.other"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "source.php.embedded.line"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "variable"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "support.other.variable"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "string.other.link"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "string.regexp"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "entity.name.tag"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "entity.other.attribute-name"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "meta.tag"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "declaration.tag"
+            },
+            {
+                "foreground": "#ee6161",
+                "token": "constant.numeric"
+            },
+            {
+                "foreground": "#ee6161",
+                "token": "constant.language"
+            },
+            {
+                "foreground": "#ee6161",
+                "token": "support.constant"
+            },
+            {
+                "foreground": "#ee6161",
+                "token": "constant.character"
+            },
+            {
+                "foreground": "#ee6161",
+                "token": "variable.parameter"
+            },
+            {
+                "foreground": "#ee6161",
+                "token": "punctuation.section.embedded"
+            },
+            {
+                "foreground": "#ee6161",
+                "token": "keyword.other.unit"
+            },
+            {
+                "foreground": "#dd7c50",
+                "token": "entity.name.class"
+            },
+            {
+                "foreground": "#dd7c50",
+                "token": "entity.name.type.class"
+            },
+            {
+                "foreground": "#dd7c50",
+                "token": "support.type"
+            },
+            {
+                "foreground": "#dd7c50",
+                "token": "support.class"
+            },
+            {
+                "foreground": "#89bf8d",
+                "token": "string"
+            },
+            {
+                "foreground": "#89bf8d",
+                "token": "entity.other.inherited-class"
+            },
+            {
+                "foreground": "#89bf8d",
+                "token": "markup.heading"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "constant.other.color"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "entity.name.function"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "meta.function-call"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "support.function"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "keyword.other.special-method"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "meta.block-level"
+            },
+            {
+                "foreground": "#c68cc3",
+                "token": "keyword"
+            },
+            {
+                "foreground": "#c68cc3",
+                "token": "storage"
+            },
+            {
+                "foreground": "#c68cc3",
+                "token": "storage.type"
+            },
+            {
+                "foreground": "#c68cc3",
+                "token": "entity.name.tag.css"
+            },
+            {
+                "foreground": "#c68cc3",
+                "token": "keyword.operator"
+            },
+            {
+                "foreground": "#ee6161",
+                "background": "ee7c80ff",
+                "token": "invalid"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "background": "6b4f4fff",
+                "token": "meta.separator"
+            },
+            {
+                "foreground": "#243043",
+                "background": "ee864dff",
+                "token": "invalid.deprecated"
+            },
+            {
+                "foreground": "#4fe1ee",
+                "token": "constant.character"
+            },
+            {
+                "foreground": "#4fe1ee",
+                "token": "constant.other"
+            },
+            {
+                "foreground": "eeb164",
+                "token": "number"
+            }
+        ],
+        "colors": {
+            "editor.foreground": "#b1b1b1",
+            "editor.background": "#282828",
+            "editor.selectionBackground": "#474747",
+            "editorCursor.foreground": "#c5c5c5",
+            "editorWhitespace.foreground": "#474747"
+        }
+    },
+    "customCSS": "body {    font-family: var(--font);}body::before {    content: \"Syn-Ware M\";    position: fixed;    width: 100vw;    height: 30px;    background:var(--background-titlebar);    left:0;    top:0;    text-align: center;    line-height: 2;    background-image: url(assets/img/logo.png);    background-size: contain;    background-repeat: no-repeat;    background-position: right;    z-index: 9999;}#mainSidebar {    position: fixed;    bottom: 0;    width: 100vw;    height: 42px;    top: auto;    padding: 5px;    align-items: center !important;    flex-direction: row;    background: var(--background-sidebar);}#mainSidebar > *:not(.spacer) {    margin-bottom: 0px;    margin-top: 0px !important;    margin-left: 5px !important;    width: 88px;    height: 28px;    background: var(--background-buttons);    filter: none;    font-size: 0px;    text-decoration: none;    text-align: center;    text-shadow: none !important;    border: 1px solid transparent;}#aboutBtn > img {    display: none;    }#mainSidebar > *:not(.spacer)::after {    font-size: 13px;    font-family: sans-serif;    color: var(--text-button);    line-height: 2.5;}[alt=\"Script-Ware Options\"]::after {    content:\"Options\";}[alt=\"Console\"]::after {    content:\"Console\";}[alt=\"Code Editor\"]::after {    content:\"Editor\";}[alt=\"My Scripts\"]::after {    content:\"Open File\";}[alt=\"Tools\"]::after {    content:\"Tools\";}[alt=\"Friends\"]::after {    content:\"Friends\";}[alt=\"Script Library\"]::after {    content:\"Script Hub\";}[alt=\"Inject\"]::after {    content:\"Attach\";}[alt=\"Run Script\"]::after {    content:\"Execute\";}#mainSidebar > *:not(.spacer):hover {    background: var(--background-button-hover);    border: 1px solid var(--border-button);}#mainSidebar > *:not(.spacer).active {    background: var(--background-button-active);    border: 1px solid var(--border-button-active);}#contentContainer,.content {    width: 100vw;}.content,.editorSidebar {    height: calc(100vh - 72px);    margin-top: 30px !important;}.content:not(#aboutPage),.editorSidebar:not(#scriptsSidebar) {    margin-top: 72px !important;}#monacoContainer {    height: calc(100vh - 95px);}.tab, .tab:hover {    background: var(--background-tab) !important;    padding: 6px;    padding-bottom: 3px;}.tab.active {    background: var(--background-tab-active) !important;}.tab > .material-icons:not(.glowy) {    display: none;}.tab > .glowy {    transform: scale(0.5);    text-shadow: none !important;    color: var(--text-tab-close) !important;}.tab > .glowy:hover {    background: var(--background-tab-close);}#tabsContainer > .glowy {    margin-left: 5px;    background: var(--background-tab-open);    border: 1px solid var(--border-tab-open);    color: var(--text-tab-open) !important;    text-shadow: none !important;}#tabsContainer > .glowy:hover {    border: 1px solid var(--border-tab-open-hover);}.script:hover {    background: var(--background-script-hover);    border: 1px solid var(--border-script-hover);    box-shadow: none;    padding-bottom: 0px;    padding-top: 0px;}.script > .material-icons {    display: none;}.script:not(.friend) {    max-height: 1.2em;}.script-folder:focus, .script-folder:focus-within {    max-height: 999999999999vw;}.textbox, button:not(.simplebutton):not(.outlinedBtn) {    box-shadow: none;    background: var(--background-input);}#tooltip {   z-index: 999999999;   right: 0;   left: initial;}#aboutName {    color: transparent;}#aboutName::before {    content: \"Syn-Ware M\";    color: var(--text);}#editorSidebarContainer {    left: 100vw !important;    background: var(--background-bottombar);}[hash=sidebar] #editorSidebarContainer {    left: calc(100vw - 320px) !important;    margin-right: 0px;}body #tabsContainer, body #monacoContainer {    transition: 0.2s margin-right !important;}body[hash=sidebar] #tabsContainer, body[hash=sidebar] #monacoContainer {    filter: none;;    margin-left: 0;    margin-right: 326px;}#toaster_breadbag {    position: fixed;    top: 0vh;    left: 50vw;    right: auto;    width: fit-content;    transform: translate(-50%,0%);    z-index: 99999;    display: flex;    flex-direction: column;    align-items: center;}.toast {    width: fit-content;    margin: 8px;    transition: none !important;}.toast:not([style=\"transform: translate(0%, 0%); transition: transform 0.2s ease 0s;\"]) {    display: none;}.monaco-editor .margin {    background: var(--background-editor-margin);}.monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input {    background: var(--background-editor);}"
+}
+
