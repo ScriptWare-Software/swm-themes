@@ -1,6 +1,8 @@
 {
     "name": "Visual Studio Light",
     "author": "theLMGN",
+    "desc": "A basic light theme",
+    "tags": [],
     "isLight": true,
     "vars": {
         "accent": "#007ACC",

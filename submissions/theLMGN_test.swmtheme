@@ -1,6 +1,8 @@
 {
-    "name": "My Theme",
-    "author": "A Script-Ware User",
+    "name": "Example Red",
+    "author": "theLMGN",
+    "desc": "An example theme with a random background",
+    "tags": ["background"],
     "isLight": false,
     "vars": {
         "accent": "#f64d4d",

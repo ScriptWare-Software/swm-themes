@@ -1,6 +1,8 @@
 {
     "name": "Visual Studio",
     "author": "theLMGN",
+    "desc": "A basic dark theme",
+    "tags": [],
     "vars": {
         "accent": "#007ACC",
         "background": "#1E1E1E",
