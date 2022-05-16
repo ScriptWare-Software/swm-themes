@@ -1,0 +1,198 @@
+{
+    "name": "Blurple",
+    "author": "theLMGN",
+    "vars": {
+        "accent": "#7289DA",
+        "background": "#36393F",
+        "background-2": "#2F3136",
+        "background-3": "#202225",
+        "text": "#F7F7F7"
+    },
+    "monacoTheme": {
+        "base": "vs-dark",
+        "inherit": true,
+        "rules": [
+            {
+                "foreground": "202225",
+                "fontStyle": "italic",
+                "token": "comment"
+            },
+            {
+                "foreground": "B9BBBEff",
+                "token": "keyword.operator.class"
+            },
+            {
+                "foreground": "B9BBBEff",
+                "token": "constant.other"
+            },
+            {
+                "foreground": "B9BBBEff",
+                "token": "source.php.embedded.line"
+            },
+            {
+                "foreground": "E45647",
+                "token": "variable"
+            },
+            {
+                "foreground": "E45647",
+                "token": "support.other.variable"
+            },
+            {
+                "foreground": "E45647",
+                "token": "string.other.link"
+            },
+            {
+                "foreground": "E45647",
+                "token": "string.regexp"
+            },
+            {
+                "foreground": "E45647",
+                "token": "entity.name.tag"
+            },
+            {
+                "foreground": "E45647",
+                "token": "entity.other.attribute-name"
+            },
+            {
+                "foreground": "E45647",
+                "token": "meta.tag"
+            },
+            {
+                "foreground": "E45647",
+                "token": "declaration.tag"
+            },
+            {
+                "foreground": "F3A933ff",
+                "token": "constant.numeric"
+            },
+            {
+                "foreground": "F3A933ff",
+                "token": "constant.language"
+            },
+            {
+                "foreground": "F3A933ff",
+                "token": "support.constant"
+            },
+            {
+                "foreground": "F3A933ff",
+                "token": "constant.character"
+            },
+            {
+                "foreground": "F3A933ff",
+                "token": "variable.parameter"
+            },
+            {
+                "foreground": "F3A933ff",
+                "token": "punctuation.section.embedded"
+            },
+            {
+                "foreground": "F3A933ff",
+                "token": "keyword.other.unit"
+            },
+            {
+                "foreground": "EEC437ff",
+                "token": "entity.name.class"
+            },
+            {
+                "foreground": "EEC437ff",
+                "token": "entity.name.type.class"
+            },
+            {
+                "foreground": "EEC437ff",
+                "token": "support.type"
+            },
+            {
+                "foreground": "EEC437ff",
+                "token": "support.class"
+            },
+            {
+                "foreground": "5EB285ff",
+                "token": "string"
+            },
+            {
+                "foreground": "5EB285ff",
+                "token": "entity.other.inherited-class"
+            },
+            {
+                "foreground": "5EB285ff",
+                "token": "markup.heading"
+            },
+            {
+                "foreground": "B9BBBEff",
+                "token": "constant.other.color"
+            },
+            {
+                "foreground": "3BABEBff",
+                "token": "entity.name.function"
+            },
+            {
+                "foreground": "3BABEBff",
+                "token": "meta.function-call"
+            },
+            {
+                "foreground": "3BABEBff",
+                "token": "support.function"
+            },
+            {
+                "foreground": "3BABEBff",
+                "token": "keyword.other.special-method"
+            },
+            {
+                "foreground": "3BABEBff",
+                "token": "meta.block-level"
+            },
+            {
+                "foreground": "F181F5ff",
+                "token": "keyword"
+            },
+            {
+                "foreground": "F181F5ff",
+                "token": "storage"
+            },
+            {
+                "foreground": "F181F5ff",
+                "token": "storage.type"
+            },
+            {
+                "foreground": "F181F5ff",
+                "token": "entity.name.tag.css"
+            },
+            {
+                "foreground": "F181F5ff",
+                "token": "keyword.operator"
+            },
+            {
+                "foreground": "eeeeeeff",
+                "background": "E45647ff",
+                "token": "invalid"
+            },
+            {
+                "foreground": "B9BBBEff",
+                "background": "6b4f4fff",
+                "token": "meta.separator"
+            },
+            {
+                "foreground": "243043ff",
+                "background": "ee864dff",
+                "token": "invalid.deprecated"
+            },
+            {
+                "foreground": "3BABEBff",
+                "token": "constant.character"
+            },
+            {
+                "foreground": "3BABEBff",
+                "token": "constant.other"
+            }
+        ],
+        "colors": {
+            "editor.foreground": "#F7F7F7",
+            "editor.background": "#36393F",
+            "editor.selectionBackground": "#34373c",
+            "editor.lineHighlightBackground": "#34373c",
+            "editorCursor.foreground": "#7289DA",
+            "editorWhitespace.foreground": "#F7F7F7"
+        }
+    },
+    "customCSS": "@font-face{font-family:Whitney;src:url(https://discord.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff) format(\"woff\");font-weight:400}@font-face{font-family:Whitney;src:url(https://discord.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff) format(\"woff\");font-weight:500}@font-face{font-family:Whitney;src:url(https://discord.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff) format(\"woff\");font-weight:600}@font-face{font-family:Whitney;src:url(https://discord.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff) format(\"woff\");font-weight:700}body,button,input{font-family:Whitney,sans-serif}#editorSidebarContainer,.sidebarHeader{background:#2F3136;}#mainsidebar{background:#202225;}"
+}

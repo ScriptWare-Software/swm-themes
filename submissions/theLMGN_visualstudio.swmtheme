@@ -1,0 +1,14 @@
+{
+    "name": "Visual Studio",
+    "author": "theLMGN",
+    "vars": {
+        "accent": "#007ACC",
+        "background": "#1E1E1E",
+        "background-2": "#252526",
+        "background-3": "#333333",
+        "text": "#D4D4D4",
+        "text-on-accent": "#d4d4d4"
+    },
+    "monacoTheme": "vs-dark",
+    "customCSS": ""
+}

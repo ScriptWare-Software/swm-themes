@@ -1,0 +1,199 @@
+{
+    "name": "My Theme",
+    "author": "A Script-Ware User",
+    "isLight": false,
+    "vars": {
+        "accent": "#f64d4d",
+        "background": "#202225",
+        "background-2": "#222",
+        "background-3": "#444",
+        "text": "#fff",
+        "text-on-accent": "#fff"
+    },
+    "monacoTheme": {
+        "base": "vs-dark",
+        "inherit": true,
+        "rules": [
+            {
+                "foreground": "#5c6370",
+                "fontStyle": " italic",
+                "token": "comment"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "keyword.operator.class"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "constant.other"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "source.php.embedded.line"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "variable"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "support.other.variable"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "string.other.link"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "string.regexp"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "entity.name.tag"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "entity.other.attribute-name"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "meta.tag"
+            },
+            {
+                "foreground": "#fa6e7c",
+                "token": "declaration.tag"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "constant.numeric"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "constant.language"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "support.constant"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "constant.character"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "variable.parameter"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "punctuation.section.embedded"
+            },
+            {
+                "foreground": "#eeb164",
+                "token": "keyword.other.unit"
+            },
+            {
+                "foreground": "#eee280",
+                "token": "entity.name.class"
+            },
+            {
+                "foreground": "#eee280",
+                "token": "entity.name.type.class"
+            },
+            {
+                "foreground": "#eee280",
+                "token": "support.type"
+            },
+            {
+                "foreground": "#eee280",
+                "token": "support.class"
+            },
+            {
+                "foreground": "#adee7a",
+                "token": "string"
+            },
+            {
+                "foreground": "#adee7a",
+                "token": "entity.other.inherited-class"
+            },
+            {
+                "foreground": "#adee7a",
+                "token": "markup.heading"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "token": "constant.other.color"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "entity.name.function"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "meta.function-call"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "support.function"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "keyword.other.special-method"
+            },
+            {
+                "foreground": "#61cbee",
+                "token": "meta.block-level"
+            },
+            {
+                "foreground": "#ec7bee",
+                "token": "keyword"
+            },
+            {
+                "foreground": "#ec7bee",
+                "token": "storage"
+            },
+            {
+                "foreground": "#ec7bee",
+                "token": "storage.type"
+            },
+            {
+                "foreground": "#ec7bee",
+                "token": "entity.name.tag.css"
+            },
+            {
+                "foreground": "#ec7bee",
+                "token": "keyword.operator"
+            },
+            {
+                "foreground": "#eeeeee",
+                "background": "ee7c80ff",
+                "token": "invalid"
+            },
+            {
+                "foreground": "b8cae8ff",
+                "background": "6b4f4fff",
+                "token": "meta.separator"
+            },
+            {
+                "foreground": "#243043",
+                "background": "ee864dff",
+                "token": "invalid.deprecated"
+            },
+            {
+                "foreground": "#4fe1ee",
+                "token": "constant.character"
+            },
+            {
+                "foreground": "#4fe1ee",
+                "token": "constant.other"
+            }
+        ],
+        "colors": {
+            "editor.foreground": "#BFCAE0",
+            "editor.background": "#202225",
+            "editor.selectionBackground": "#3D4350",
+            "editorCursor.foreground": "#528BFF",
+            "editorWhitespace.foreground": "#747369"
+        }
+    },
+    "customCSS": "body { background-image: url(\"https://source.unsplash.com/random/1920x1080\"); background-size: cover;background-position: center;}.monaco-editor .margin, .monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input { background-color: transparent;}body[hash=sidebar] #tabsContainer, body[hash=sidebar] #monacoContainer { background: #0008;}#monacoContainer { transition: 0.2s filter, 0.2s margin-left, 0.2s background; } "
+}

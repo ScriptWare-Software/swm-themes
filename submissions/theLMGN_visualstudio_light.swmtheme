@@ -1,0 +1,15 @@
+{
+    "name": "Visual Studio Light",
+    "author": "theLMGN",
+    "isLight": true,
+    "vars": {
+        "accent": "#007ACC",
+        "background": "#ffffff",
+        "background-2": "#F3F3F3",
+        "background-3": "#DDDDDD",
+        "text": "#333333",
+        "text-on-accent": "#fff"
+    },
+    "monacoTheme": "vs-light",
+    "customCSS": ""
+}
