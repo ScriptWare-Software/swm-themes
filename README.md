@@ -7,4 +7,4 @@ Currently you can download themes from the `submissions` folder on this reposito
 
 ## ↑ Submitting themes
 
-Click [here](https://github.com/script-ware-software/swm-themes/issues/new?assignees=&labels=Submission&template=theme-submission.md&title=%5BSUBMISSION%5D)
+Click [here](https://github.com/scriptware-software/swm-themes/issues/new?assignees=&labels=Submission&template=theme-submission.md&title=%5BSUBMISSION%5D)
