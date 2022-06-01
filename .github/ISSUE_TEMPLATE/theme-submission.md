@@ -10,8 +10,8 @@ assignees: ''
 # Requirements
 [X] To mark a requirement as completed, put an X in the box, like this line.
 [ ] This is a theme that **I** have created, not someone else.
-[ ] This is a SWM theme
-[ ] All assets (such as images) are hosted on trusted sources (such as Imgur or Discord)
+[ ] This is a theme for Script-Ware M (not the dashboard or Script-Ware for Windows)
+[ ] All assets (such as images), if any, are hosted on trusted sources (such as Imgur or Discord)
 
 # Tag your theme
 [ ] Background image
@@ -20,7 +20,7 @@ assignees: ''
 [ ] Overhaul (makes major changes to the SWM UI, for example, the Syn-Ware theme)
 
 
-# Describe your theme
+# Write a short description of your theme
 
 
 # Upload your theme.
