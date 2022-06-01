@@ -9,7 +9,7 @@ for (var file of fs.readdirSync("./submissions")) {
         var log = child_process.spawnSync("git",["log","--format=%aD",file],{cwd:"./submissions/" }).stdout.toString().split("\n").filter((a)=>a);
         themes[file] = {
             name: f.name, author: f.author, tags: f.tags, desc: f.desc,
-            text: f.vars.text, background: f.vars.background, accent: f.vars.accent,
+            vars: {text: f.vars.text, background: f.vars.background, accent: f.vars.accent},
             file, mtime: new Date(log[0]), ctime: new Date(log.pop())
         }
     } catch(e) {
