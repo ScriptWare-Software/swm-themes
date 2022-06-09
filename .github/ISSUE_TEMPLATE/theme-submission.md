@@ -17,7 +17,7 @@ assignees: ''
 - [ ] Background image
 - [ ] Animated
 - [ ] Custom (you wrote your own custom CSS)
-- [ ] Overhaul (makes major changes to the SWM UI, for example, the Syn-Ware theme)
+- [ ] Overhaul (makes major changes to the SWM UI, for example, the "Red Sea" theme)
 
 
 # Write a short description of your theme
