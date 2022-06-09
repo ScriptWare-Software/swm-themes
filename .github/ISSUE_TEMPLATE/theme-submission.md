@@ -8,16 +8,16 @@ assignees: ''
 ---
 
 # Requirements
-[X] To mark a requirement as completed, put an X in the box, like this line.
-[ ] This is a theme that **I** have created, not someone else.
-[ ] This is a theme for Script-Ware M (not the dashboard or Script-Ware for Windows)
-[ ] All assets (such as images), if any, are hosted on trusted sources (such as Imgur or Discord)
+- [X] To mark a requirement as completed, put an X in the box, like this line.
+- [ ] This is a theme that **I** have created, not someone else.
+- [ ] This is a theme for Script-Ware M (not the dashboard or Script-Ware for Windows)
+- [ ] All assets (such as images), if any, are hosted on trusted sources (such as Imgur or Discord)
 
 # Tag your theme
-[ ] Background image
-[ ] Animated
-[ ] Custom (you wrote your own custom CSS)
-[ ] Overhaul (makes major changes to the SWM UI, for example, the Syn-Ware theme)
+- [ ] Background image
+- [ ] Animated
+- [ ] Custom (you wrote your own custom CSS)
+- [ ] Overhaul (makes major changes to the SWM UI, for example, the Syn-Ware theme)
 
 
 # Write a short description of your theme
